@@ -50,7 +50,7 @@ public class ListManager {
         this.lists.sort(new Comparator<NoteList>() {
             @Override
             public int compare(NoteList list1, NoteList list2) {
-                // Compare in descending order (newest first)
+                
                 return list2.updatedAt.compareTo(list1.updatedAt);
             }
         });

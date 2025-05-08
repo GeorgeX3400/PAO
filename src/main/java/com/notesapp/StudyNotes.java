@@ -28,10 +28,7 @@ public class StudyNotes extends NoteList {
             // Add a new bullet point
             note.addNote(newOption);
         } else if (option == 3) {
-            // Update a bullet point (requires index of bullet point)
-            // This would need to be handled differently, as we need the bullet point index
-            // For now, we'll assume the newOption contains both index and new content
-            // Format: "index:newContent"
+            
             String[] parts = newOption.split(":", 2);
             if (parts.length == 2) {
                 try {
