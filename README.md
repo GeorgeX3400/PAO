@@ -5,17 +5,17 @@
   - Notițe pentru cumparaturi
 
 ## Lista de clase a proiectului:
-Entități pentru notițe:
+### Entități pentru notițe:
   - Note
   - StudyNote
   - ToDo
   - ToBuy
-Entități pentru gestionarea notițelor:
+### Entități pentru gestionarea notițelor:
  - NoteList
  - StudyNotes
  - ToDoList
  - ToBuyList
-Entități pentru gestionarea aplicației:
+### Entități pentru gestionarea aplicației:
  - User
  - ListManager
  - App
